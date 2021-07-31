@@ -1,0 +1,36 @@
+.checkout_form{
+    
+    margin-top:60px;;
+    background-color:white;
+    border:1px solid rgba(0,0,0,.125);
+
+}
+
+.checkout_summary{
+    margin-top:60px;;
+    background-color:white;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: 10px;;
+}
+
+.checkout_items{
+    text-align: center;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    
+}
+.checkout_items:hover{
+    border-bottom: 1px solid gray;
+    cursor:pointer;
+}
+
+.checkout_total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

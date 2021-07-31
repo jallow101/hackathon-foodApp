@@ -1,0 +1,68 @@
+.menu_cards {
+    background-color: #fff; 
+      height: 80%;
+    width: 100%;
+      overflow: hidden; 
+          /* margin: 22px;  */
+      border-radius: 5px; 
+      box-shadow: 9px 17px 45px -29px
+                      rgba(0, 0, 0, 0.44); 
+          /* padding: 15px; JUST TO LOOK COOL */
+      border: 1px solid #eee;  /* JUST TO LOOK COOL */
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+      transition: all .3s ease-in-out;
+  }
+  .card_position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu_cards:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+    transition: transform 330ms;
+  }
+  
+  .card {
+    /* position: relative; */
+    margin: 45px 5px 5px 5px;
+    padding: 40px 15px 32px 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #e5efff;
+    background-color: #fefefe;
+    border-radius: 8px 8px;
+    /* border-color:goldenrod; */
+  
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: all 0.2s ease-in-out;
+  
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+  }
+  
+  .fcard {
+    /* position: relative; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 40px;
+  }
+  .card-body {
+    background-color: white;
+    border-radius: 6px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
